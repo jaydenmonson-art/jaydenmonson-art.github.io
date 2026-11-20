@@ -1,20 +1,24 @@
-@import "@fontsource-variable/fraunces/opsz.css";
-@import "@fontsource-variable/outfit/wght.css";
+@import "@fontsource/space-grotesk/400.css";
+@import "@fontsource/space-grotesk/500.css";
+@import "@fontsource/space-grotesk/600.css";
+@import "@fontsource-variable/inter";
 
 :root {
-  --paper: #f3efe6;
-  --paper-deep: #e7e1d6;
-  --ink: #1c1916;
-  --muted: #6e675e;
-  --line: #ddd6c8;
-  --accent: #b03d16;
-  --accent-ink: #fffaf6;
-  --footer: #1c1916;
-  --footer-muted: #b7aea4;
-  --serif: "Fraunces Variable", "Liberation Serif", Georgia, serif;
-  --sans: "Outfit Variable", "Liberation Sans", "Avenir Next", sans-serif;
+  --paper: #0c0e12;
+  --paper-deep: #151922;
+  --ink: #e7ebf2;
+  --muted: #a3acb8;
+  --line: rgba(190, 210, 230, 0.16);
+  --accent: #9ad7ff;
+  --accent-ink: #061018;
+  --footer: #08090c;
+  --footer-muted: #a3acb8;
+  --display: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  --serif: var(--display);
+  --sans: "Inter Variable", Inter, "Liberation Sans", sans-serif;
   --measure: 40rem;
-  --shadow: 0 18px 40px rgba(28, 25, 22, 0.06);
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  --glow: 0 0 22px rgba(154, 215, 255, 0.28);
 }
 
 *,
@@ -29,9 +33,13 @@ html {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(900px 420px at 100% -10%, rgba(176, 61, 22, 0.07), transparent 55%),
-    var(--paper);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(880px 460px at 100% -12%, rgba(154, 215, 255, 0.1), transparent 58%),
+    linear-gradient(rgba(190, 210, 230, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(190, 210, 230, 0.045) 1px, transparent 1px);
+  background-size: auto, 64px 64px, 64px 64px;
+  background-attachment: fixed;
   color: var(--ink);
   font-family: var(--sans);
   font-size: 1.0625rem;
@@ -59,8 +67,8 @@ figure {
 }
 
 ::selection {
-  background: #f0d2c4;
-  color: var(--ink);
+  background: rgba(154, 215, 255, 0.32);
+  color: #fff;
 }
 
 :focus:not(:focus-visible) {
@@ -77,8 +85,8 @@ figure {
   left: 1rem;
   top: -4rem;
   z-index: 40;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--accent);
+  color: var(--accent-ink);
   padding: 0.5rem 0.75rem;
   text-decoration: none;
 }
@@ -112,7 +120,7 @@ figure {
 
 .wordmark {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: 1.35rem;
   letter-spacing: -0.03em;
   text-decoration: none;
@@ -145,21 +153,6 @@ figure {
 
 .li-icon {
   display: block;
-}
-
-.btn-pending {
-  cursor: default;
-  opacity: 0.72;
-}
-
-.btn-pending::after {
-  content: "PDF to come";
-  margin-left: 0.7rem;
-  padding: 0.15rem 0.4rem;
-  background: rgba(255, 250, 246, 0.2);
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 .hero-id {
@@ -228,8 +221,7 @@ figure {
 
 h1 {
   font-family: var(--serif);
-  font-weight: 560;
-  font-optical-sizing: auto;
+  font-weight: 500;
   font-size: clamp(3.4rem, 8vw, 6.6rem);
   line-height: 0.9;
   letter-spacing: -0.04em;
@@ -275,16 +267,17 @@ h1 span {
   background: var(--accent);
   border-color: var(--accent);
   color: var(--accent-ink);
+  box-shadow: var(--glow);
 }
 
 .btn-primary:hover {
-  background: #8e3112;
-  border-color: #8e3112;
+  background: #c5e9ff;
+  border-color: #c5e9ff;
 }
 
 .btn-ghost:hover {
-  background: var(--ink);
-  color: var(--paper);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .shift,
@@ -360,6 +353,7 @@ figcaption,
   position: relative;
   background: var(--paper-deep);
   overflow: hidden;
+  border: 1px solid var(--line);
 }
 
 .frame img {
@@ -392,7 +386,7 @@ figcaption,
 
 .card h2 {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: 1.7rem;
   letter-spacing: -0.03em;
   line-height: 1.15;
@@ -413,7 +407,7 @@ figcaption,
 
 .focus h3 {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: 1.85rem;
   letter-spacing: -0.03em;
   margin: 0.35rem 0 0.45rem;
@@ -449,7 +443,7 @@ figcaption,
 
 blockquote {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: clamp(1.7rem, 3vw, 2.35rem);
   line-height: 1.25;
   letter-spacing: -0.03em;
@@ -499,32 +493,102 @@ blockquote {
   font-size: 0.86em;
 }
 
-.timeline {
-  list-style: none;
-  margin: 2.6rem 0 0;
-  padding: 0;
+.timeline-label {
+  margin: 2.6rem 0 0.2rem;
 }
 
-.timeline li {
-  display: grid;
-  grid-template-columns: 8.5rem 1fr;
-  gap: 1.5rem;
-  padding: 1.4rem 0;
-  border-top: 1px solid var(--line);
+.timeline {
+  list-style: none;
+  margin: 1.1rem 0 0;
+  padding: 0 0 0 0.15rem;
+  border-left: 1px solid var(--line);
+}
+
+.timeline > li {
+  position: relative;
+  display: block;
+  padding: 0 0 1.85rem 1.35rem;
+}
+
+.timeline > li::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 0.42rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(154, 215, 255, 0.12), 0 0 14px rgba(154, 215, 255, 0.45);
 }
 
 .timeline h2 {
-  font-family: var(--serif);
-  font-weight: 560;
-  font-size: 1.85rem;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.55rem;
   letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.previous {
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.highlights {
+  list-style: none;
+  margin: 0.7rem 0 0;
+  padding: 0;
+}
+
+.highlights li {
+  position: relative;
+  padding: 0.28rem 0 0.28rem 0.85rem;
+  font-size: 0.98rem;
+}
+
+.highlights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.85rem;
+  width: 0.4rem;
+  height: 1px;
+  background: var(--accent);
 }
 
 .dates {
-  margin-top: 0.4rem;
+  margin: 0 0 0.25rem;
   color: var(--accent);
-  font-size: 0.92rem;
-  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.skill-groups {
+  display: grid;
+  gap: 0;
+  margin-top: 0.4rem;
+}
+
+.skill-groups section {
+  padding: 0.95rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.skill-groups h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.3rem;
+}
+
+.skill-groups p {
+  color: var(--muted);
+  max-width: 40rem;
 }
 
 .org {
@@ -545,7 +609,7 @@ blockquote {
 .big {
   display: block;
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: clamp(1.8rem, 4vw, 3rem);
   letter-spacing: -0.03em;
   line-height: 1.15;
@@ -601,7 +665,7 @@ blockquote {
   aspect-ratio: 16 / 9;
   object-fit: contain;
   object-position: center;
-  background: #fff;
+  background: #f4f6f8;
   height: auto;
 }
 
@@ -653,7 +717,7 @@ blockquote {
 
 .outcome p {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: clamp(1.55rem, 2.6vw, 2.15rem);
   line-height: 1.3;
   letter-spacing: -0.03em;
@@ -673,7 +737,7 @@ blockquote {
 
 .next-title {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   letter-spacing: -0.03em;
 }
@@ -715,7 +779,7 @@ blockquote {
   margin: 0 0 1.5rem;
   padding: 0.85rem 1rem;
   border-left: 3px solid var(--accent);
-  background: rgba(176, 61, 22, 0.06);
+  background: rgba(154, 215, 255, 0.06);
 }
 
 .steps {
@@ -754,8 +818,10 @@ blockquote {
 video {
   width: 100%;
   height: auto;
-  background: #1c1916;
+  background: #050607;
   display: block;
+  border: 1px solid var(--line);
+  box-shadow: 0 0 0 1px rgba(154, 215, 255, 0.06), 0 18px 40px rgba(0, 0, 0, 0.35);
 }
 
 .model-soon {
@@ -827,8 +893,9 @@ video {
 
 .site-footer {
   background: var(--footer);
-  color: #f3efe6;
+  color: var(--ink);
   padding: 2.8rem 0;
+  border-top: 1px solid var(--line);
 }
 
 .footer-grid {
@@ -840,7 +907,7 @@ video {
 
 .footer-name {
   font-family: var(--serif);
-  font-weight: 560;
+  font-weight: 500;
   font-size: 1.8rem;
   letter-spacing: -0.03em;
 }
@@ -848,7 +915,7 @@ video {
 .footer-line {
   margin: 0.35rem 0 0.7rem;
   max-width: 28rem;
-  color: #ddd6c8;
+  color: var(--muted);
 }
 
 .footer-note {
@@ -870,7 +937,7 @@ video {
 }
 
 .footer-links a:hover {
-  color: #f0cfc4;
+  color: var(--accent);
 }
 
 .empty {
@@ -968,7 +1035,7 @@ video {
   .sketches,
   .skills,
   .footer-grid,
-  .timeline li,
+  .timeline > li,
   .next-project,
   .compare-grid,
   .card-compact,

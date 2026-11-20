@@ -89,7 +89,7 @@ function layout({ title, description, current, depth, body, site }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
-  <meta name="theme-color" content="#f3efe6">
+  <meta name="theme-color" content="#0c0e12">
   <link rel="icon" href="${href('favicon.svg')}" type="image/svg+xml">
   <link rel="stylesheet" href="${href('src/styles.css')}">
 </head>
@@ -115,7 +115,7 @@ function layout({ title, description, current, depth, body, site }) {
       <div>
         <p class="footer-name">${esc(site.name)}</p>
         <p class="footer-line">${esc(site.shift)}</p>
-        <p class="footer-note">${esc(site.footerNote)}</p>
+        ${site.footerNote ? `<p class="footer-note">${esc(site.footerNote)}</p>` : ''}
       </div>
       <ul class="footer-links">
         <li><a href="mailto:${esc(site.email)}">Email</a></li>
@@ -156,11 +156,11 @@ function projectCard(project, index, depth) {
   else if (real) label = ''
   const alt = project.cardAlt
     || (project.study
-      ? `Reference material, not Jayden’s work: ${project.title}`
+      ? `Reference material, not my work: ${project.title}`
       : real
         ? project.heroAlt || project.title
         : `Placeholder image for ${project.title}, ${project.category}`)
-  const flag = project.study ? `<p class="study-flag">Reference · not Jayden’s work</p>` : ''
+  const flag = project.study ? `<p class="study-flag">Reference · not my work</p>` : ''
   return `<a class="card${compact ? ' card-compact' : ''}" href="${href}">
     ${frame(asset(depth, images.cover), alt, images.contain ? 1600 : images.wide ? 1800 : 1600, images.contain ? 900 : images.wide ? 811 : 1200, { wide: images.wide, contain: images.contain, badge: label })}
     <p class="card-kicker"><span>${number}</span><span>${esc(project.category)}</span></p>
@@ -247,15 +247,15 @@ function workPage(site, projects) {
     : `<p class="empty">No projects yet. Add one in data/projects.json and refresh.</p>`
   return layout({
     title: `Work — ${site.name}`,
-    description: 'Placeholder projects across exhibit design, immersive experiences, interactives, illustration, operations, and concepts.',
+    description: site.workIntro,
     current: 'work',
     depth: 0,
     site,
     body: `<section class="page-head">
       <div class="inner">
-        <p class="eyebrow">Work</p>
+        <p class="eyebrow">Work · ${projects.length} ${projects.length === 1 ? 'project' : 'projects'}</p>
         <h1>Work</h1>
-        <p class="dek">Finished projects come first. Cards marked Placeholder are stand-ins. The design study at the end is reference material, not work Jayden made.</p>
+        <p class="dek">${esc(site.workIntro)}</p>
         ${cards}
       </div>
     </section>`,
@@ -296,35 +296,53 @@ function aboutPage(site) {
   })
 }
 
-function resumePage(site) {
-  const roles = site.roles
-    .map(
-      (role) => `<li>
+function timelineItems(entries) {
+  return (entries || [])
+    .map((role) => {
+      const highlights = (role.highlights || []).map((item) => `<li>${esc(item)}</li>`).join('')
+      const previous = role.previous ? `<p class="previous">${esc(role.previous)}</p>` : ''
+      const detail = role.detail ? `<p class="previous">${esc(role.detail)}</p>` : ''
+      const place = [role.org, role.location].filter(Boolean).join(' · ')
+      return `<li>
         <p class="dates">${esc(role.dates)}</p>
-        <div>
-          <h2>${esc(role.title)}</h2>
-          <p class="org">${esc(role.org)}</p>
-          <p>${esc(role.summary)}</p>
-        </div>
-      </li>`,
+        <h2>${esc(role.title)}</h2>
+        ${previous}
+        ${detail}
+        <p class="org">${esc(place)}</p>
+        ${highlights ? `<ul class="highlights">${highlights}</ul>` : ''}
+      </li>`
+    })
+    .join('\n')
+}
+
+function resumePage(site) {
+  const groups = (site.skillGroups || [])
+    .map(
+      (group) => `<section>
+        <h3>${esc(group.title)}</h3>
+        <p>${esc(group.items)}</p>
+      </section>`,
     )
     .join('\n')
   return layout({
     title: `Resume — ${site.name}`,
-    description: `Resume for ${site.name}, Operations Lead at Painter1 Franchise.`,
+    description: `Resume for ${site.name}, operations lead and experience designer.`,
     current: 'resume',
     depth: 0,
     site,
     body: `<section class="page-head">
       <div class="inner narrow">
         <p class="eyebrow">Resume</p>
-        <h1>Experience, on one page.</h1>
-        <p class="dek">Placeholder timeline. The resume file itself is not here yet.</p>
+        <h1>Experience</h1>
+        <p class="dek">Operations, exhibit design, and the guest experience.</p>
         <p class="actions">
-          <span class="btn btn-primary btn-pending" role="button" aria-disabled="true">Download resume</span>
+          <a class="btn btn-ghost" href="${esc(site.linkedin)}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </p>
-        <p class="file-note">Placeholder. PDF to come. When it arrives, save it as <span>public/${esc(site.resumeFile)}</span> and this button can link to it.</p>
-        <ol class="timeline">${roles}</ol>
+        <ol class="timeline">${timelineItems(site.roles)}</ol>
+        <h2 class="section-label timeline-label">Education</h2>
+        <ol class="timeline">${timelineItems(site.education)}</ol>
+        <h2 class="section-label timeline-label">Skills</h2>
+        <div class="skill-groups">${groups}</div>
       </div>
     </section>`,
   })
@@ -341,10 +359,10 @@ function contactPage(site) {
       <div class="inner narrow">
         <p class="eyebrow">Contact</p>
         <h1>Tell me about the space.</h1>
-        <p class="dek">Placeholder. A note, a collaboration, or a role — email and LinkedIn are the two ways in. There is no form.</p>
+        <p class="dek">A note, a collaboration, or a role. Email and LinkedIn are how to reach me.</p>
         <div class="contact-list">
           <a href="mailto:${esc(site.email)}">
-            <span class="label">Email · placeholder</span>
+            <span class="label">Email</span>
             <span class="big">${esc(site.email)}</span>
           </a>
           <a href="${esc(site.linkedin)}" target="_blank" rel="noopener noreferrer">
@@ -395,7 +413,7 @@ function realProjectPage(site, project, projects) {
   const depth = 1
   const meta = [project.category, project.place].filter(Boolean).join(' · ')
   const studyBanner = project.study
-    ? `<p class="study-banner">Design study. These are other designers’ concept documents. Jayden studied them. He did not create these drawings.</p>`
+    ? `<p class="study-banner">Design study. These drawings are other designers’ concept documents. I studied them. I did not create them.</p>`
     : ''
   const hero = images.hero && !project.card
     ? `<figure class="hero-figure">
@@ -406,7 +424,7 @@ function realProjectPage(site, project, projects) {
   const facts = [
     project.role ? `<section><h2>Role</h2><p>${esc(project.role)}</p></section>` : '',
     project.challenge ? `<section><h2>Challenge</h2><p>${esc(project.challenge)}</p></section>` : '',
-    project.gained ? `<section><h2>What he gained</h2><p>${esc(project.gained)}</p></section>` : '',
+    project.gained ? `<section><h2>What I gained</h2><p>${esc(project.gained)}</p></section>` : '',
   ].filter(Boolean)
   const factsHtml = facts.length ? `<div class="trio">${facts.join('\n')}</div>` : ''
   const steps = Array.isArray(project.steps) && project.steps.length
@@ -424,12 +442,9 @@ function realProjectPage(site, project, projects) {
     : ''
   const modelPath = project.images?.model || `images/${project.slug}/model.jpg`
   const modelReady = images.modelSlot && existsSync(join(root, 'public', modelPath))
-  const model = images.modelSlot
+  const model = modelReady
     ? `<section class="block"><h2>Model</h2>
-        ${modelReady
-          ? frame(asset(depth, modelPath), `SketchUp model of ${project.title}`, 1600, 1000, { wide: true })
-          : `<div class="model-soon"><p>Model image coming soon</p></div>
-        <p class="file-note">No final model image yet. Add <span>public/${esc(modelPath)}</span> and it will replace this slot on the next refresh.</p>`}
+        ${frame(asset(depth, modelPath), `SketchUp model of ${project.title}`, 1600, 1000, { wide: true })}
       </section>`
     : ''
   const regions = Array.isArray(project.regions) && project.regions.length

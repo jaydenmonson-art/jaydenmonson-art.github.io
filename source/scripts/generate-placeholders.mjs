@@ -254,48 +254,6 @@ function writeIfNeeded(file, contents) {
   return true
 }
 
-function pdfBytes() {
-  const stream = `BT
-/F1 26 Tf
-72 730 Td
-(Jayden Monson) Tj
-/F1 13 Tf
-0 -34 Td
-(Resume placeholder) Tj
-0 -24 Td
-(Replace this file with the real resume PDF.) Tj
-0 -20 Td
-(public/jayden-monson-resume.pdf) Tj
-0 -40 Td
-(Operations Lead, Painter1 Franchise) Tj
-0 -22 Td
-(Experience designer and operations leader.) Tj
-0 -36 Td
-(This page is a stand-in so the download button has a file.) Tj
-ET`
-  const objects = [
-    '<< /Type /Catalog /Pages 2 0 R >>',
-    '<< /Type /Pages /Kids [3 0 R] /Count 1 >>',
-    '<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>',
-    `<< /Length ${Buffer.byteLength(stream)} >>\nstream\n${stream}\nendstream`,
-    '<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>',
-  ]
-  let pdf = '%PDF-1.4\n'
-  const offsets = [0]
-  objects.forEach((body, index) => {
-    offsets.push(Buffer.byteLength(pdf))
-    pdf += `${index + 1} 0 obj\n${body}\nendobj\n`
-  })
-  const xref = Buffer.byteLength(pdf)
-  pdf += `xref\n0 ${objects.length + 1}\n`
-  pdf += '0000000000 65535 f \n'
-  for (let i = 1; i <= objects.length; i += 1) {
-    pdf += `${String(offsets[i]).padStart(10, '0')} 00000 n \n`
-  }
-  pdf += `trailer\n<< /Size ${objects.length + 1} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF\n`
-  return pdf
-}
-
 export function ensurePlaceholders() {
   const projects = JSON.parse(readFileSync(join(root, 'data/projects.json'), 'utf8'))
   let written = 0
@@ -315,7 +273,6 @@ export function ensurePlaceholders() {
       if (writeIfNeeded(join(dir, name), contents)) written += 1
     }
   })
-  if (writeIfNeeded(join(root, 'public/jayden-monson-resume.pdf'), pdfBytes())) written += 1
   return written
 }
 
