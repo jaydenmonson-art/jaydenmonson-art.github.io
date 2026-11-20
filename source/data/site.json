@@ -25,6 +25,8 @@
     "Human-centered design",
     "SketchUp",
     "After Effects",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
     "KPIs and P&L"
   ],
   "focus": [
@@ -117,7 +119,7 @@
     },
     {
       "title": "Tools",
-      "items": "SketchUp, After Effects, Adobe Photoshop, Illustrator, InDesign, Microsoft Excel/Office, Notion, ClientTether"
+      "items": "SketchUp, After Effects, Adobe Photoshop, Adobe Illustrator, InDesign, Microsoft Excel/Office, Notion, ClientTether"
     }
   ]
 }

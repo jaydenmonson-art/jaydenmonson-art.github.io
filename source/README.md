@@ -59,7 +59,7 @@ Add an object to the array in `data/projects.json`:
 Rules:
 
 - `slug` is the page address (`projects/new-project.html`). Use lowercase letters, numbers, and hyphens. It must be unique.
-- `category` should be a short label such as Exhibit, Immersive, Interactive, Illustration, Operations/CX, or Concept.
+- `category` should be a short label such as Exhibit, Immersive, Interactive, Operations/CX, or Concept.
 - Save the file. With `npm run dev` running, the new card and page appear on refresh.
 
 Missing images for a project that is still marked as a stand-in are filled with labeled drawings the first time the site renders. To redraw those drawings:

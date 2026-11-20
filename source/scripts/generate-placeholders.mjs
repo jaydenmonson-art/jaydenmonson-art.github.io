@@ -9,7 +9,6 @@ const kindByCategory = {
   Exhibit: 'bays',
   Immersive: 'tunnel',
   Interactive: 'screen',
-  Illustration: 'drawing',
   'Operations/CX': 'grid',
   Concept: 'theater',
 }
