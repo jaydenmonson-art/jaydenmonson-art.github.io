@@ -205,6 +205,35 @@
     }
   },
   {
+    "slug": "smithsonian-exhibit-study",
+    "title": "Smithsonian Exhibit Study",
+    "category": "3D Modeling",
+    "place": "Smithsonian National Museum of Natural History",
+    "placeholder": false,
+    "summary": "I modeled the asteroid-impact exhibit in the Smithsonian fossil hall in SketchUp for practice.",
+    "overview": "I picked an exhibit from the Smithsonian National Museum of Natural History, the asteroid impact and mass extinction display in the fossil hall, and modeled it in SketchUp for practice.",
+    "cardAlt": "My SketchUp model of the Smithsonian asteroid-impact exhibit.",
+    "images": {
+      "cover": "images/smithsonian-exhibit-study/model.jpg",
+      "hero": "",
+      "compareTitle": "Reference vs. model",
+      "compare": [
+        {
+          "src": "images/smithsonian-exhibit-study/real.jpg",
+          "label": "Reference",
+          "alt": "The asteroid impact and mass extinction exhibit in the Smithsonian National Museum of Natural History fossil hall, from the museum virtual tour.",
+          "caption": "Reference image: Smithsonian NMNH virtual tour."
+        },
+        {
+          "src": "images/smithsonian-exhibit-study/model.jpg",
+          "label": "Model",
+          "alt": "My SketchUp model of the Smithsonian asteroid-impact exhibit.",
+          "caption": "My SketchUp model."
+        }
+      ]
+    }
+  },
+  {
     "slug": "jurassic-jungle-shoe-room",
     "title": "Jurassic Jungle: Shoe Room Story Video",
     "category": "Interactive Media / Guest Experience",

@@ -171,7 +171,7 @@ function projectCard(project, index, depth) {
 }
 
 function homePage(site, projects) {
-  const preferred = ['buglands', 'jurassic-jungle-shoe-room', 'jurassic-jungle-prop']
+  const preferred = ['buglands', 'smithsonian-exhibit-study', 'jurassic-jungle-shoe-room']
   const featuredProjects = []
   for (const slug of preferred) {
     const match = projects.find((project) => project.slug === slug)
