@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img">
+<rect width="1200" height="1200" fill="#f6f3ed"/>
+    
+      <rect x="90" y="360" width="200" height="200" fill="none" stroke="#2c2824" stroke-width="3"/>
+      <rect x="390" y="300" width="200" height="200" fill="none" stroke="#2c2824" stroke-width="3"/>
+      <rect x="690" y="380" width="200" height="200" fill="none" stroke="#2c2824" stroke-width="3"/>
+      <rect x="960" y="280" width="160" height="200" fill="none" stroke="#2c2824" stroke-width="3"/>
+      <path d="M300 460 L390 400 M590 400 L690 480 M890 480 L960 380" fill="none" stroke="#2c2824" stroke-width="3" stroke-linecap="round"/>
+    
+  <rect x="0" y="1008" width="1200" height="192" fill="#f3efe6"/>
+  <line x1="0" y1="1008" x2="1200" y2="1008" stroke="#1c1916" stroke-opacity="0.12"/>
+  <text x="48" y="1094.4" fill="#1c1916" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="50" letter-spacing="3">PLACEHOLDER</text>
+  <text x="48" y="1153.92" fill="#6e675e" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="31">Process sketch 3</text>
+</svg>

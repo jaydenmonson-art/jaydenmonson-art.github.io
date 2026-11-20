@@ -1,0 +1,64 @@
+{
+  "editing": "Update this file for the home, about, resume, and contact pages. Case studies live in data/projects.json. How to swap images is in README.md.",
+  "name": "Jayden Monson",
+  "role": "Operations Lead, Painter1 Franchise",
+  "positioning": "Experience designer and operations leader: I turn stories into spaces people move through.",
+  "shift": "Moving from franchise operations toward exhibit and experience design.",
+  "email": "jayden@example.com",
+  "linkedin": "https://www.linkedin.com/in/jayden-monson/",
+  "linkedinLabel": "linkedin.com/in/jayden-monson",
+  "resumeFile": "jayden-monson-resume.pdf",
+  "portrait": "images/portrait.jpg",
+  "footerNote": "Some cards are still placeholders. The Kidstopia entry is a design study of other people’s drawings.",
+  "bio": [
+    "Placeholder bio. Jayden Monson is Operations Lead at Painter1 Franchise, a painting franchisor, and is moving toward exhibit and experience design.",
+    "Placeholder. The design work he wants to be hired for sits at vision and creative direction, illustration, storytelling, and guest flow — blended experiences that can include AV, touchscreen interactives, fabricated environments, projection, lighting, playgrounds, sculptures, theaters, and immersive walkthroughs.",
+    "Placeholder. He also brings operations, customer experience, and franchise owner coaching: the practical side of making a visit consistent for the next guest. Replace these paragraphs with a bio in your own voice."
+  ],
+  "skills": [
+    "Creative direction",
+    "Storytelling",
+    "Illustration",
+    "Guest flow",
+    "Experience design",
+    "Customer experience",
+    "Cross-functional collaboration",
+    "Stakeholder influence",
+    "Training and coaching",
+    "Metrics and analytics"
+  ],
+  "focus": [
+    {
+      "title": "Creative direction",
+      "text": "Vision, illustration, and the story a space should tell before anyone builds it."
+    },
+    {
+      "title": "Guest flow",
+      "text": "How people move through light, sound, touchscreens, scenery, and immersive walkthroughs."
+    },
+    {
+      "title": "Operations and care",
+      "text": "Customer experience, owner coaching, and the routines that keep a visit consistent."
+    }
+  ],
+  "roles": [
+    {
+      "title": "Operations Lead",
+      "org": "Painter1 Franchise",
+      "dates": "Present",
+      "summary": "Placeholder. Replace with the scope of the role — owners, guest experience, and the results you are willing to share."
+    },
+    {
+      "title": "Role title",
+      "org": "Organization",
+      "dates": "Years",
+      "summary": "Placeholder. Earlier role. Replace with the title, organization, dates, and a short note on what you led."
+    },
+    {
+      "title": "Role title",
+      "org": "Organization",
+      "dates": "Years",
+      "summary": "Placeholder. Earlier role. Replace with the title, organization, dates, and a short note on what you made."
+    }
+  ]
+}

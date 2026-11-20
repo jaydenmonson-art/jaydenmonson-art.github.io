@@ -1,0 +1,440 @@
+[
+  {
+    "slug": "buglands",
+    "title": "Buglands",
+    "category": "Concept Design / Theming",
+    "place": "Butterfly Biosphere, Thanksgiving Point",
+    "placeholder": false,
+    "summary": "A concept to retheme the Costa Rica Climber as Buglands, a playground of bug habitats.",
+    "overview": "Concept work to retheme the Costa Rica Climber in Thanksgiving Point\u2019s Butterfly Biosphere. The play structure was not really working, and there was not much theming. Jayden walked the climber and photographed it, then developed Buglands: regions themed to different kinds of bugs. He built a concept deck for the whole idea and modeled a few touchpoints.",
+    "role": "Concept designer. Site research, the theme and story, the concept deck, and initial 3D touchpoint models.",
+    "challenge": "Retheme the existing Costa Rica Climber. It was not really working as a play structure, and the space had little theming.",
+    "heroCaption": "Opening slide of the concept deck, \u201cThe Buglands.\u201d",
+    "heroAlt": "Concept illustration from the Buglands deck, titled The Buglands.",
+    "regions": [
+      {
+        "name": "Colony Cliffs",
+        "text": "Bug communities: ants, termites, and social wasps. In the deck this is the entrance, where colony builders make tunnels, chambers, and towers."
+      },
+      {
+        "name": "Hopper Plains",
+        "text": "The toddler area. Grassland and grasshoppers: soft fields for bouncing, leaping, and playing from a grasshopper\u2019s view."
+      },
+      {
+        "name": "Wetland Wonders",
+        "text": "Water habitat: diving beetles, water striders, whirligigs, and scorpions in arid riverbeds. The deck also calls this Bug Basin."
+      },
+      {
+        "name": "Bug Borough",
+        "text": "Underground or forest-floor bugs. Tunnels, bioluminescence, glowworms, isopods, beetles, roaches, and decomposers."
+      },
+      {
+        "name": "Canopy Crossing",
+        "text": "Above, in the rainforest canopy: tropical insects, stick bugs, and assassin bugs. The deck splits the canopy into Build a Bug, Find a Bug, Fly a Bug, and the Butterfly Passage."
+      }
+    ],
+    "images": {
+      "cover": "images/buglands/deck/01.jpg",
+      "hero": "images/buglands/deck/01.jpg",
+      "contain": true,
+      "albums": [
+        {
+          "title": "Existing conditions",
+          "layout": "grid",
+          "images": [
+            {
+              "src": "images/buglands/site/01.jpg",
+              "alt": "Existing Costa Rica Climber: red tube slide, faux-tree columns, and a colorful upper railing.",
+              "caption": "Existing climber. Red tube slide, faux-tree columns, and the colorful upper railing."
+            },
+            {
+              "src": "images/buglands/site/02.jpg",
+              "alt": "Existing playhouse wall inside the Costa Rica Climber, with two small windows and a sign.",
+              "caption": "Inside the existing structure. A wood-textured wall, two small windows, and a peek sign."
+            },
+            {
+              "src": "images/buglands/site/03.jpg",
+              "alt": "Existing root tunnels and red tube slide in the Costa Rica Climber.",
+              "caption": "Existing root tunnels beside the red tube slide."
+            },
+            {
+              "src": "images/buglands/site/04.jpg",
+              "alt": "Existing upper wall and colorful fence in the Costa Rica Climber.",
+              "caption": "Existing upper wall and the colorful fence below it."
+            },
+            {
+              "src": "images/buglands/site/05.jpg",
+              "alt": "Entrance to the Costa Rica Climber, with the Costa Rica Climber sign.",
+              "caption": "Entrance, with the Costa Rica Climber sign."
+            }
+          ]
+        },
+        {
+          "title": "Concept deck",
+          "layout": "scroll",
+          "images": [
+            {
+              "src": "images/buglands/deck/01.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 1. Title slide. The Buglands.",
+              "caption": "Slide 01. Title slide. The Buglands."
+            },
+            {
+              "src": "images/buglands/deck/02.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 2. Welcome, and the five regions: Colony Cliffs, Hopper Plains, Wetland Wonders, Bug Borough, and Canopy Crossing.",
+              "caption": "Slide 02. Welcome, and the five regions: Colony Cliffs, Hopper Plains, Wetland Wonders, Bug Borough, and Canopy Crossing."
+            },
+            {
+              "src": "images/buglands/deck/03.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 3. Bug Borough. An underground borough of glowworms, isopods, beetles, roaches, and decomposers.",
+              "caption": "Slide 03. Bug Borough. An underground borough of glowworms, isopods, beetles, roaches, and decomposers."
+            },
+            {
+              "src": "images/buglands/deck/04.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 4. Hopper Plains, the toddler area. Grassy fields, hops, jumps, and play from a grasshopper\u2019s view.",
+              "caption": "Slide 04. Hopper Plains, the toddler area. Grassy fields, hops, jumps, and play from a grasshopper\u2019s view."
+            },
+            {
+              "src": "images/buglands/deck/05.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 5. Hopper Plains layout: elevated climbing, a leaf ladder, a grasshopper sculpture, a slide, a ball-drop wall, nest blocks, a parent bench, and bouncy pads.",
+              "caption": "Slide 05. Hopper Plains layout: elevated climbing, a leaf ladder, a grasshopper sculpture, a slide, a ball-drop wall, nest blocks, a parent bench, and bouncy pads."
+            },
+            {
+              "src": "images/buglands/deck/06.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 6. Colony Cliffs, the entrance. Ants, termites, bees, and other colony builders.",
+              "caption": "Slide 06. Colony Cliffs, the entrance. Ants, termites, bees, and other colony builders."
+            },
+            {
+              "src": "images/buglands/deck/07.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 7. Bug Basin, the water habitat. Bugs under the surface and on top of it. A note to retheme the air tunnel with butterfly fabric and a net.",
+              "caption": "Slide 07. Bug Basin, the water habitat. Bugs under the surface and on top of it. A note to retheme the air tunnel with butterfly fabric and a net."
+            },
+            {
+              "src": "images/buglands/deck/08.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 8. Canopy Crossing. Bugs high above the forest floor, then a butterfly flight through the canopy.",
+              "caption": "Slide 08. Canopy Crossing. Bugs high above the forest floor, then a butterfly flight through the canopy."
+            },
+            {
+              "src": "images/buglands/deck/09.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 9. Canopy Crossing labs: Build a Bug, Find a Bug, and Fly a Bug, ending in the Butterfly Passage slide.",
+              "caption": "Slide 09. Canopy Crossing labs: Build a Bug, Find a Bug, and Fly a Bug, ending in the Butterfly Passage slide."
+            },
+            {
+              "src": "images/buglands/deck/10.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 10. Build a Bug. A chrysalis interactive, incubation zoetropes, signage about development, and a cubby for a finished chrysalis.",
+              "caption": "Slide 10. Build a Bug. A chrysalis interactive, incubation zoetropes, signage about development, and a cubby for a finished chrysalis."
+            },
+            {
+              "src": "images/buglands/deck/11.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 11. Treehouse lab. An incubator cabinet, lab screens, and a zoetrope that spins a bug until it reads as mature.",
+              "caption": "Slide 11. Treehouse lab. An incubator cabinet, lab screens, and a zoetrope that spins a bug until it reads as mature."
+            },
+            {
+              "src": "images/buglands/deck/12.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 12. Find a Bug. A light-trap interactive, a camouflage test, telescopes, and props for hiding like a bug.",
+              "caption": "Slide 12. Find a Bug. A light-trap interactive, a camouflage test, telescopes, and props for hiding like a bug."
+            },
+            {
+              "src": "images/buglands/deck/13.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 13. Find a Bug, continued. A lantern light trap and field-notebook signs about nocturnal bugs.",
+              "caption": "Slide 13. Find a Bug, continued. A lantern light trap and field-notebook signs about nocturnal bugs."
+            },
+            {
+              "src": "images/buglands/deck/14.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 14. Fly a Bug. Butterflies sent from a tree, a wind tunnel for paper fliers, and a butterfly-descent slide.",
+              "caption": "Slide 14. Fly a Bug. Butterflies sent from a tree, a wind tunnel for paper fliers, and a butterfly-descent slide."
+            },
+            {
+              "src": "images/buglands/deck/15.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 15. Butterfly Passage.",
+              "caption": "Slide 15. Butterfly Passage."
+            },
+            {
+              "src": "images/buglands/deck/16.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 16. A plan detail of the Butterfly Passage.",
+              "caption": "Slide 16. A plan detail of the Butterfly Passage."
+            },
+            {
+              "src": "images/buglands/deck/17.jpg",
+              "fit": "contain",
+              "alt": "Buglands concept deck, slide 17. A plan of Fly a Bug, the Butterfly Passage, Build a Bug, and Find a Bug, next to a diagram of the climber.",
+              "caption": "Slide 17. A plan of Fly a Bug, the Butterfly Passage, Build a Bug, and Find a Bug, next to a diagram of the climber."
+            }
+          ]
+        },
+        {
+          "title": "Touchpoints",
+          "layout": "stack",
+          "images": [
+            {
+              "src": "images/buglands/touchpoints/01.jpg",
+              "fit": "contain",
+              "alt": "Touchpoint model of the treehouse lab: incubators and a zoetrope.",
+              "caption": "Treehouse lab. A cabinet of incubators, lab screens, and a zoetrope. Placing an incubator in the zoetrope spins it to show a mature bug."
+            },
+            {
+              "src": "images/buglands/touchpoints/02.jpg",
+              "fit": "contain",
+              "alt": "Touchpoint model of Fly a Bug: butterflies from a tree and a butterfly-descent slide.",
+              "caption": "Fly a Bug. A flight of butterflies from the tree, a wind tunnel in the trunk, and a butterfly-descent slide."
+            },
+            {
+              "src": "images/buglands/touchpoints/03.jpg",
+              "fit": "contain",
+              "alt": "Touchpoint model of elevated climbing, a leaf ladder, a grasshopper sculpture, a ball-drop wall, and a nest-building area.",
+              "caption": "Play layout. Elevated climbing, a leaf ladder, a grasshopper climbing sculpture, a ball-drop wall, and a build-your-nest area."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "jurassic-jungle-shoe-room",
+    "title": "Jurassic Jungle: Shoe Room Story Video",
+    "category": "Interactive Media / Guest Experience",
+    "place": "Thanksgiving Point",
+    "placeholder": false,
+    "series": "Jurassic Jungle",
+    "summary": "A video for the shoe-room monitor, so guests understand the story before they enter the playground.",
+    "overview": "Jurassic Jungle is a kids\u2019 playground with a story throughout. Kids wear interactive wristbands to log their progress as they find missing hatchlings and return them to their nest. Jayden owned the touchpoint in the shoe room, before guests enter.",
+    "role": "Designer and motion/video creator for the touchpoint (After Effects).",
+    "challenge": "Help guests understand the story and the instructions before they enter the chaotic playground. Signage was already there. Early on, very few people stopped to read it, and guests were saying they didn\u2019t know what was going on at first. The task was a video for the monitor, to increase dwell time and understanding.",
+    "steps": [
+      "Observations, logging insights in a document.",
+      "Planned the key messages to deliver.",
+      "Storyboarded the video.",
+      "Filmed and generated placeholder footage.",
+      "Built it in After Effects over several iterations, optimizing the visuals to minimize confusion and using animation to direct attention.",
+      "Installed the video on the TV.",
+      "Observed again.",
+      "Fixed the issues that showed up \u2014 volume, and the time between loops \u2014 and shipped edits for day 2."
+    ],
+    "outcome": "After the video was installed, he observed more dwell time and more attention from both kids and parents. That read is qualitative. No counts were recorded.",
+    "heroCaption": "The shoe room before guests enter: jungle mural, tree-stump stations, the How to Play sign, the monitor, and shoe cubbies.",
+    "heroAlt": "Shoe room at Jurassic Jungle, with the monitor, How to Play sign, tree-stump stations, and shoe cubbies.",
+    "images": {
+      "cover": "images/jurassic-jungle-shoe-room/hero.jpg",
+      "hero": "images/jurassic-jungle-shoe-room/hero.jpg",
+      "wide": true,
+      "video": {
+        "src": "images/jurassic-jungle-shoe-room/story.mp4",
+        "poster": "images/jurassic-jungle-shoe-room/poster.jpg",
+        "caption": "A clip from the shoe-room story video: playground footage with red lava-style lighting."
+      }
+    }
+  },
+  {
+    "slug": "jurassic-jungle-prop",
+    "title": "Jurassic Jungle: Locker Area Prop Concept",
+    "category": "Prop / Concept Design",
+    "place": "Thanksgiving Point",
+    "placeholder": false,
+    "series": "Jurassic Jungle",
+    "summary": "A prop concept for the locker area, starting from an off-the-shelf clear hinged enclosure.",
+    "overview": "A prop concept for the Jurassic Jungle locker area. The rendering styles a clear hinged enclosure as a sci-fi specimen case holding an \u201cApatosaurus Skull,\u201d with a holographic teal overlay, HUD graphics, a touch-point icon, and a stand. It shows a side view and a front view.",
+    "role": "Prop concept for the locker area.",
+    "goalNote": "Placeholder. Add the goal and what came of the concept.",
+    "heroCaption": "Concept rendering for the locker-area prop, side and front views.",
+    "heroAlt": "Concept rendering of a clear hinged enclosure styled as a sci-fi specimen case holding an Apatosaurus Skull.",
+    "images": {
+      "cover": "images/jurassic-jungle-prop/concept.jpg",
+      "hero": "images/jurassic-jungle-prop/concept.jpg",
+      "wide": true,
+      "compareTitle": "Starting object to concept",
+      "compare": [
+        {
+          "src": "images/jurassic-jungle-prop/case.jpg",
+          "label": "Starting object",
+          "alt": "The off-the-shelf clear hinged enclosure the concept started from.",
+          "caption": "The real off-the-shelf clear hinged enclosure, the base object for the concept."
+        },
+        {
+          "src": "images/jurassic-jungle-prop/concept.jpg",
+          "label": "Concept",
+          "alt": "Concept rendering of the enclosure as a sci-fi specimen case.",
+          "caption": "Concept rendering. Side and front views, with a teal overlay, HUD graphics, a touch-point icon, and a stand."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "jurassic-hall-kids-area",
+    "title": "Jurassic Hall Kids Area: Measured Model",
+    "category": "3D Modeling / Site Survey",
+    "place": "Thanksgiving Point",
+    "placeholder": false,
+    "series": "Jurassic Hall",
+    "summary": "Detailed measurements and a SketchUp model of the kids\u2019 area under the ascending ramp.",
+    "overview": "Jayden took detailed measurements and built a SketchUp model of the kids\u2019 area in the Jurassic Hall at Thanksgiving Point.",
+    "role": "Measurements and the SketchUp model of the kids\u2019 area.",
+    "challenge": "The room was especially hard to model because of its odd shape: structural poles and a sloping ceiling. The space sits underneath the ascending ramp.",
+    "heroCaption": "The existing kids\u2019 area: wood benches, columns, yellow walls, and a low sloped ceiling.",
+    "heroAlt": "The kids\u2019 area in Jurassic Hall, with wood benches, columns, yellow walls, and a low ceiling.",
+    "images": {
+      "cover": "images/jurassic-hall-kids-area/hero.jpg",
+      "hero": "images/jurassic-hall-kids-area/hero.jpg",
+      "wide": true,
+      "modelSlot": true
+    }
+  },
+  {
+    "slug": "jurassic-hall-install",
+    "title": "Jurassic Hall Exhibit Upgrade: Install Team",
+    "category": "Install / Fabrication",
+    "place": "Thanksgiving Point",
+    "placeholder": false,
+    "card": "compact",
+    "series": "Jurassic Hall",
+    "summary": "Helped measure the room and the ramp behind the exhibit, and was on the team for the install of its first upgrade.",
+    "overview": "The first upgrade of the juvenile Stegosaurus / armored dinosaur display in Jurassic Hall. Jayden helped take measurements of the room and the ramp behind the exhibit, and he was on the team during the install.",
+    "role": "Helped measure the room and the ramp behind the exhibit. On the install team for this upgrade. He did not design the exhibit or run the fabrication.",
+    "gained": "Firsthand exposure to coordination with the fabrication shop, and to working with vendors during an install.",
+    "cardAlt": "The upgraded Jurassic Hall exhibit after install. Jayden was on the install team.",
+    "images": {
+      "cover": "images/jurassic-hall-install/finished.jpg",
+      "wide": true,
+      "compareTitle": "During install / After",
+      "compare": [
+        {
+          "src": "images/jurassic-hall-install/during.jpg",
+          "label": "During install",
+          "alt": "The exhibit behind Exhibits at Work barriers during the install.",
+          "caption": "During the install. The exhibit sits behind Exhibits at Work barriers."
+        },
+        {
+          "src": "images/jurassic-hall-install/finished.jpg",
+          "label": "After",
+          "alt": "The upgraded exhibit with new graphic panels, rails, and interactives.",
+          "caption": "After the upgrade: new graphic panels, rails, and interactives."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "exhibit",
+    "title": "Project title",
+    "category": "Exhibit",
+    "year": "20XX",
+    "summary": "Placeholder. One sentence on an exhibit guests move through.",
+    "overview": "Placeholder. This is the short story of the project: who it was for, where it lived, and the moment you wanted people to remember. Replace these sentences with the real narrative. Two or three lines is enough for this slot.",
+    "role": "Placeholder. Creative direction, storytelling, and the path from room to room.",
+    "challenge": "Placeholder. What made the story hard to put in a room \u2014 too many ideas, a tight footprint, or a guest with only a few minutes.",
+    "approach": "Placeholder. How the sequence, tone, scenery, and light were decided. Replace this with the real choices, in order.",
+    "outcome": "Placeholder. What changed for the guest or the team. Say it in plain language. Leave out invented numbers."
+  },
+  {
+    "slug": "immersive",
+    "title": "Project title",
+    "category": "Immersive",
+    "year": "20XX",
+    "summary": "Placeholder. One sentence on a walkthrough of light, sound, and story.",
+    "overview": "Placeholder. Describe the room a guest walked into and the feeling it was built to hold. Mention projection, lighting, or sound only if they actually carried the story. Swap this for the real account.",
+    "role": "Placeholder. Experience design across the room, the cueing, and the guest path.",
+    "challenge": "Placeholder. The hard part of an immersive piece: pacing, sightlines, or keeping the story clear when the room is doing so much.",
+    "approach": "Placeholder. How the walk was boarded, where people paused, and which senses did which job. Replace with your process.",
+    "outcome": "Placeholder. What guests did, felt, or understood that they did not before. Keep it specific and true."
+  },
+  {
+    "slug": "interactive",
+    "title": "Project title",
+    "category": "Interactive",
+    "year": "20XX",
+    "summary": "Placeholder. One sentence on a touchscreen that lets guests steer the story.",
+    "overview": "Placeholder. Explain what someone could touch, what changed when they did, and why that beat mattered in the larger visit. This slot is the story, not a feature list.",
+    "role": "Placeholder. Interactive narrative, guest flow, and the on-screen sequence.",
+    "challenge": "Placeholder. Where people got lost, tapped past the point, or needed a clearer invitation to begin.",
+    "approach": "Placeholder. How the choices, the copy, and the physical placement of the screen were simplified. Replace with what you actually tried.",
+    "outcome": "Placeholder. What got easier for the guest. A single concrete observation is better than a vague success line."
+  },
+  {
+    "slug": "illustration",
+    "title": "Project title",
+    "category": "Illustration",
+    "year": "20XX",
+    "summary": "Placeholder. One sentence on drawings that lead the story.",
+    "overview": "Placeholder. Say what the drawings were for \u2014 a world, a character system, a wall of graphics \u2014 and how they set the tone before anything was fabricated. Replace with the real brief.",
+    "role": "Placeholder. Illustration, visual storytelling, and art direction.",
+    "challenge": "Placeholder. The constraint: a style that had to work small on a screen and large on a wall, or a story that was still moving.",
+    "approach": "Placeholder. How the sketches became a direction other people could build from. Mention the handoff if it mattered.",
+    "outcome": "Placeholder. How the drawings showed up in the finished piece, or what they unlocked for the team."
+  },
+  {
+    "slug": "operations-cx",
+    "title": "Project title",
+    "category": "Operations/CX",
+    "year": "20XX",
+    "summary": "Placeholder. One sentence on coaching owners and the guest experience.",
+    "overview": "Placeholder. This card is for the operational work: a visit pattern, a coaching rhythm, or a customer-experience fix that made the creative promise reliable. Replace with a real example from Painter1 or elsewhere.",
+    "role": "Placeholder. Customer experience, owner coaching, and the operating rhythm.",
+    "challenge": "Placeholder. Where the guest experience drifted from location to location, or where owners needed a clearer way to lead it.",
+    "approach": "Placeholder. What you taught, measured, or simplified so the experience could be repeated without you in the room.",
+    "outcome": "Placeholder. What got more consistent. Use a result you can stand behind, or describe the change without numbers."
+  },
+  {
+    "slug": "concept",
+    "title": "Project title",
+    "category": "Concept",
+    "year": "20XX",
+    "summary": "Placeholder. One sentence on an early idea for a walk-through theater.",
+    "overview": "Placeholder. An early concept still counts. Describe the story, the kind of space, and the guest journey you were testing. It does not need to have been built.",
+    "role": "Placeholder. Concept, spatial story, and a first pass at guest flow.",
+    "challenge": "Placeholder. The open question the concept was trying to answer \u2014 tone, sequence, or whether the idea deserved a room at all.",
+    "approach": "Placeholder. What you drew, wrote, or walked through with someone else to make the idea discussable.",
+    "outcome": "Placeholder. What the concept clarified, even if the ending is \u201cnot this, that.\u201d Early work can end in a decision."
+  },
+  {
+    "slug": "kidstopia-study",
+    "title": "Design Study: Kidstopia Concept Documents",
+    "category": "Design Study",
+    "place": "Thanksgiving Point",
+    "placeholder": false,
+    "card": "compact",
+    "study": true,
+    "summary": "A study of other designers\u2019 concept drawings for Kidstopia, to learn play touchpoints and what each one is for.",
+    "overview": "Jayden studied the concept drawings for the Kidstopia venue at the Museum of Natural Curiosity, Thanksgiving Point. He was learning the different types of play touchpoints and the different purposes they serve. He did not create these drawings.",
+    "takeaways": "Placeholder. Add the key takeaways from the study.",
+    "cardAlt": "Reference material, not Jayden\u2019s work: Kidstopia concept documents at the Museum of Natural Curiosity.",
+    "images": {
+      "cover": "images/kidstopia-study/touchpoint-catalog.jpg",
+      "wide": true,
+      "gallery": [
+        {
+          "src": "images/kidstopia-study/touchpoint-catalog.jpg",
+          "alt": "Reference material. Concept documentation studied: play touchpoint catalog, Kidstopia / Museum of Natural Curiosity, Thanksgiving Point.",
+          "caption": "Concept documentation studied: play touchpoint catalog, Kidstopia / Museum of Natural Curiosity, Thanksgiving Point. The pages include High Ropes Challenge, Climbing Adventure, Rolling Pads, Snake Slide, Rotating Drum, Spider Climb, Elastic Tunnel, and Chimney Climb, each with a description and learning objectives."
+        },
+        {
+          "src": "images/kidstopia-study/waterfall-elevation.jpg",
+          "alt": "Reference material. Concept documentation studied: Rainforest waterfall elevation and section, Kidstopia / Museum of Natural Curiosity, Thanksgiving Point.",
+          "caption": "Concept documentation studied: Rainforest waterfall elevation and section, schematic design. Kidstopia / Museum of Natural Curiosity, Thanksgiving Point."
+        },
+        {
+          "src": "images/kidstopia-study/rainforest-rendering.jpg",
+          "alt": "Reference material. Concept documentation studied: Rainforest concept rendering, Kidstopia / Museum of Natural Curiosity, Thanksgiving Point.",
+          "caption": "Concept documentation studied: Rainforest concept rendering. Kidstopia / Museum of Natural Curiosity, Thanksgiving Point."
+        },
+        {
+          "src": "images/kidstopia-study/museum-plan.jpg",
+          "alt": "Reference material. Concept documentation studied: Museum of Natural Curiosity floor plan, Kidstopia, Thanksgiving Point.",
+          "caption": "Concept documentation studied: illustrated Museum of Natural Curiosity floor plan. Kidstopia, Thanksgiving Point."
+        }
+      ]
+    }
+  }
+]

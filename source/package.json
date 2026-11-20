@@ -1,0 +1,19 @@
+{
+  "name": "jayden-monson-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4721 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4721 --strictPort",
+    "placeholders": "node scripts/generate-placeholders.mjs --force"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.2.8",
+    "@fontsource-variable/outfit": "^5.2.8"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

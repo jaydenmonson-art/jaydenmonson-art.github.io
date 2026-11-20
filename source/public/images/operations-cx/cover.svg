@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6e4de"/>
+      <stop offset="1" stop-color="#d0cdc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+    <rect x="160" y="120" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="487.2" y="120" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="814.4" y="120" width="298.4" height="252.80000000000004" fill="#3a342e"/><rect x="1141.6" y="120" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="160" y="401.6" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="487.2" y="401.6" width="298.4" height="252.80000000000004" fill="#3a342e"/><rect x="814.4" y="401.6" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="1141.6" y="401.6" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="160" y="683.2" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="487.2" y="683.2" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="814.4" y="683.2" width="298.4" height="252.80000000000004" fill="#f7f4ef"/><rect x="1141.6" y="683.2" width="298.4" height="252.80000000000004" fill="#3a342e"/>
+    
+  <rect x="0" y="1008" width="1600" height="192" fill="#f3efe6"/>
+  <line x1="0" y1="1008" x2="1600" y2="1008" stroke="#1c1916" stroke-opacity="0.12"/>
+  <text x="64" y="1094.4" fill="#1c1916" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="50" letter-spacing="3">PLACEHOLDER</text>
+  <text x="64" y="1153.92" fill="#6e675e" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="31">Operations/CX · cover</text>
+</svg>

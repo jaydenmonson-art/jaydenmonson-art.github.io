@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efeae2"/>
+      <stop offset="1" stop-color="#d5cdc0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+    <rect x="128" y="120" width="405.3333333333333" height="816.0000000000001" fill="#cfc6b8"/>
+        <rect x="282.02666666666664" y="912.0000000000001" width="97.27999999999999" height="24" fill="#efeae2"/><rect x="597.3333333333333" y="120" width="405.3333333333333" height="816.0000000000001" fill="#b7aea0"/>
+        <rect x="751.3599999999999" y="912.0000000000001" width="97.27999999999999" height="24" fill="#efeae2"/><rect x="1066.6666666666665" y="120" width="405.3333333333333" height="816.0000000000001" fill="#8a8176"/>
+        <rect x="1220.6933333333332" y="912.0000000000001" width="97.27999999999999" height="24" fill="#efeae2"/>
+    
+  <rect x="0" y="1008" width="1600" height="192" fill="#f3efe6"/>
+  <line x1="0" y1="1008" x2="1600" y2="1008" stroke="#1c1916" stroke-opacity="0.12"/>
+  <text x="64" y="1094.4" fill="#1c1916" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="50" letter-spacing="3">PLACEHOLDER</text>
+  <text x="64" y="1153.92" fill="#6e675e" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="31">Install / Fabrication · cover</text>
+</svg>

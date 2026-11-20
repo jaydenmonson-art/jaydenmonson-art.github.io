@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6e4de"/>
+      <stop offset="1" stop-color="#d0cdc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+    <rect x="192" y="108" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="584.64" y="108" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="977.28" y="108" width="358.08" height="221.76000000000002" fill="#3a342e"/><rect x="1369.92" y="108" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="192" y="364.32" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="584.64" y="364.32" width="358.08" height="221.76000000000002" fill="#3a342e"/><rect x="977.28" y="364.32" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="1369.92" y="364.32" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="192" y="620.64" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="584.64" y="620.64" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="977.28" y="620.64" width="358.08" height="221.76000000000002" fill="#f7f4ef"/><rect x="1369.92" y="620.64" width="358.08" height="221.76000000000002" fill="#3a342e"/>
+    
+  <rect x="0" y="907" width="1920" height="173" fill="#f3efe6"/>
+  <line x1="0" y1="907" x2="1920" y2="907" stroke="#1c1916" stroke-opacity="0.12"/>
+  <text x="77" y="984.85" fill="#1c1916" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="45" letter-spacing="3">PLACEHOLDER</text>
+  <text x="77" y="1038.48" fill="#6e675e" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="28">Operations/CX · hero</text>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efeae2"/>
+      <stop offset="1" stop-color="#d5cdc0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+    <rect x="153.6" y="108" width="486.40000000000003" height="734.4000000000001" fill="#cfc6b8"/>
+        <rect x="338.432" y="820.8000000000001" width="116.736" height="21.6" fill="#efeae2"/><rect x="716.8000000000001" y="108" width="486.40000000000003" height="734.4000000000001" fill="#b7aea0"/>
+        <rect x="901.6320000000001" y="820.8000000000001" width="116.736" height="21.6" fill="#efeae2"/><rect x="1280" y="108" width="486.40000000000003" height="734.4000000000001" fill="#8a8176"/>
+        <rect x="1464.832" y="820.8000000000001" width="116.736" height="21.6" fill="#efeae2"/>
+    
+  <rect x="0" y="907" width="1920" height="173" fill="#f3efe6"/>
+  <line x1="0" y1="907" x2="1920" y2="907" stroke="#1c1916" stroke-opacity="0.12"/>
+  <text x="77" y="984.85" fill="#1c1916" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="45" letter-spacing="3">PLACEHOLDER</text>
+  <text x="77" y="1038.48" fill="#6e675e" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="28">Design Study · hero</text>
+</svg>

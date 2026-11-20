@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ef"/>
+      <stop offset="1" stop-color="#e4ddd2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+    
+      <ellipse cx="768" cy="416.44800000000004" rx="384" ry="235.00800000000004" fill="none" stroke="#1c1916" stroke-width="4"/>
+      <ellipse cx="1075.2" cy="445.82400000000007" rx="307.2" ry="264.384" fill="none" stroke="#1c1916" stroke-width="4"/>
+      <ellipse cx="921.5999999999999" cy="401.76000000000005" rx="153.6" ry="117.50400000000002" fill="#cfc6b8"/>
+      <path d="M 307.2 622.08 C 614.4 181.44, 1113.6 768.9600000000002, 1612.8 269.568" fill="none" stroke="#1c1916" stroke-width="4" stroke-linecap="round"/>
+    
+  <rect x="0" y="907" width="1920" height="173" fill="#f3efe6"/>
+  <line x1="0" y1="907" x2="1920" y2="907" stroke="#1c1916" stroke-opacity="0.12"/>
+  <text x="77" y="984.85" fill="#1c1916" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="45" letter-spacing="3">PLACEHOLDER</text>
+  <text x="77" y="1038.48" fill="#6e675e" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="28">Illustration · hero</text>
+</svg>
